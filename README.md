@@ -9,6 +9,7 @@
 - [通用基础版PDF用户手册下载](DOC/XBOOT_28335用户手册v16.8.12.pdf)
 - [通用基础版命令行手册](DOC/XBOOT_CmdRef.md)
 - [发布日志](FW/ReleaseNotes.md)
+- [CAN下载调试工具:UARTCAN](https://github.com/xjtuecho/UARTCAN)
 
 ## 特性介绍
 
