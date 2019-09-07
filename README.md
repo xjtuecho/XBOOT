@@ -1,23 +1,22 @@
 
 ## 资源汇总
 
+- [离线下载模块UIDiskC2000用户手册](DOC/UIDiskC2000_UM.md)
 - [PI0049专用版下载](FW/PI0049/XBOOT_v19.6.20_PI0049.hex)
 - [PI0049专用版命令行手册](DOC/XBOOT_PI0049_CmdRef.md)
 - [PI035专用版下载](FW/PI035/XBOOT_v19.6.13_PI035.hex)
 - [PI035专用版命令行手册](DOC/XBOOT_PI035_CmdRef.md)
 - [通用基础版下载](FW/BASIC)
-- [通用基础版PDF用户手册下载](DOC/XBOOT_28335用户手册v16.8.12.pdf)
+- [通用基础版PDF用户手册](DOC/XBOOT_28335用户手册v16.8.12.pdf)
 - [通用基础版命令行手册](DOC/XBOOT_CmdRef.md)
 - [发布日志](FW/ReleaseNotes.md)
 - [CAN下载调试工具:UARTCAN](https://github.com/xjtuecho/UARTCAN)
 
 ## 特性介绍
 
-XBOOT是一款TI C2000平台的bootloader软件，配合USBTTL，USBCAN等硬件，可以实现
-C2000系列DSP固件IAP功能。
+XBOOT是一款TI C2000平台的bootloader软件，配合USBTTL，USBCAN等硬件，可以实现C2000系列DSP固件IAP功能。
 
-XBOOT分为基础版本和定制版本，基础版本免费，用于评估，无技术支持，定制版本
-可用于商业场合，提供有限的技术支持。
+XBOOT分为基础版本和定制版本，基础版本免费，用于评估，无技术支持，定制版本可用于商业场合，提供有限的技术支持。
 
 ### 基础版本特性
 
@@ -29,6 +28,7 @@ XBOOT分为基础版本和定制版本，基础版本免费，用于评估，无
 - 无固件加密功能。
 - 只支持1个用户程序，入口地址固定。
 - 支持用户固件更新。
+- 支持UIDiskC2000离线下载。
 
 ### 定制版本特性
 
@@ -43,6 +43,7 @@ XBOOT分为基础版本和定制版本，基础版本免费，用于评估，无
 - 支持用户固件更新。
 - 可访问内置模拟EEPROM。
 - 可设置器件全球唯一ID，用于产品序列号，固件加密等场合。
+- 支持器件P2P下载即使用刷好固件的器件更新其它器件。
 
 ### 硬件资源占用
 
